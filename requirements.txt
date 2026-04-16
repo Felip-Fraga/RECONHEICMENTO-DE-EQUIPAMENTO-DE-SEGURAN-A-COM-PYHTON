@@ -1,4 +1,12 @@
-ultralytics>=8.0.0
-opencv-python>=4.8.0
-numpy>=1.24.0
-Pillow>=10.0.0
+# ──────────────────────────────────────────────────────
+#  Dependências — Sistema de Detecção de EPI (Capacete)
+# ──────────────────────────────────────────────────────
+
+# Visão Computacional
+opencv-python>=4.9.0
+
+# Detecção via YOLOv8 (recomendado — instala automaticamente PyTorch)
+ultralytics>=8.2.0
+
+# NumPy (geralmente já incluído pelas libs acima)
+numpy>=1.26.0
